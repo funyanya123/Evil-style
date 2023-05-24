@@ -1,4 +1,6 @@
 # Evil-style
 It's a wicked-style camera. Though it's called a camera, it can't actually take photos. :P
 ______________________________________________________________________________________________________________________________________________________________________________________
-I used the OpenCV library, version 4.7.0, for this program. OpenCV is an open-source computer vision and machine learning library that provides various functions and algorithms for image and video processing tasks. You can find the library on GitHub at https://github.com/opencv/opencv and visit their official website at https://opencv.org/ for more information.
+I used the library from the following GitHub repository for this program: https://github.com/opencv/opencv.
+You can find more information about this library on their official website: https://opencv.org/.
+OpenCV – 4.7.0
