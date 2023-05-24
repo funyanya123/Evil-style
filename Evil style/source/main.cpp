@@ -1,14 +1,6 @@
 ﻿#include <opencv2/opencv.hpp>
 #include "cartoonify.h"
 
-#ifdef _DEBUG
-// Link to the debug version of the OpenCV library
-#pragma comment(lib, "opencv_world470d.lib")
-#else
-// Link to the release version of the OpenCV library
-#pragma comment(lib, "opencv_world470.lib")
-#endif
-
 int main() {
     // Open the camera
     cv::VideoCapture camera(0);
