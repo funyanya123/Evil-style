@@ -9,13 +9,6 @@ int main() {
         return -1;
     }
 
-    // Load the face cascade classifier
-    cv::CascadeClassifier feacs;
-    if (!feacs.load("haarcascadeshaarcascade_frontalface_default.xml")) {
-        std::cerr << "Error 2\n";
-        return -1;
-    }
-
     // Set the camera resolution
     camera.set(cv::CAP_PROP_FRAME_WIDTH, 640);
     camera.set(cv::CAP_PROP_FRAME_HEIGHT, 480);
